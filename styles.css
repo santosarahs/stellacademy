@@ -75,3 +75,213 @@ p {
     padding: 5px;
     border-radius: 5px;
 }
+
+/* Categories Section */
+
+#categories-section {
+    padding: 50px 0;
+}
+
+#categories-section .btn {
+    background-color: #ff5ca4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.card {
+    border: none;
+    border: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #ff5ca4;
+    margin-bottom: 10px;
+}
+
+/* Resources */
+
+/* Card Styling */
+#resources .card {
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+
+/* Images */
+#resources .card img {
+  border-radius: 10px 0 0 10px;
+  object-fit: cover;
+}
+
+/* Marketing Section */
+
+#resources .marketing p {
+    padding-left: 200px !important;
+}
+#resources h2 {
+  font-size: 1.8rem;
+  color: #ff4081; /* Bright pink */
+}
+
+#resources .btn-primary {
+  background-color: #ff5e99;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+#resources .btn-primary:hover {
+  background-color: #e04c85; /* Slightly darker pink */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    #resources .row {
+    flex-direction: column;
+  }
+  #resources {
+    margin-top: 20px;
+  }
+}
+
+/* Mission Section */
+
+#mission {
+    padding-right: 20px;
+}
+#mission h2 {
+    color: #ff5e99; /* Pink Accent */
+    margin-bottom: 20px;
+  }
+  
+  #mission p {
+    line-height: 1.6;
+    color: #4a4a4a; /* Neutral text color */
+  }
+  
+  /* Contact Section */
+
+  #contact {
+    padding-left: 20px;
+  }
+  #contact h2 {
+    color: #ff5e99; /* Pink Accent */
+    margin-bottom: 20px;
+  }
+  
+  #contact ul {
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  
+  #contact ul li {
+    margin-bottom: 10px;
+  }
+  
+  #contact ul li a {
+    color: #ff4081;
+    text-decoration: none;
+  }
+  
+  #contact ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-links li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .social-links a {
+    color: #ff5e99;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  #contact .btn-primary {
+    background-color: #ff5e99;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+  }
+  
+  #contact .btn-primary:hover {
+    background-color: #e04c85;
+  }
+  
+  .footer {
+    background-color: #ffe6f1; /* Light pink background */
+    color: #4a4a4a; /* Neutral text color */
+    border-top: 2px solid #ff5e99; /* Pink accent border */
+  }
+  
+  .footer-logo {
+    max-width: 120px;
+  }
+  
+  .footer-slogan {
+    font-size: 1rem;
+    color: #ff4081; /* Bright pink accent */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #4a4a4a;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-links a:hover {
+    color: #ff4081; /* Bright pink hover */
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ff5e99;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .social-icons a:hover {
+    color: #e04c85; /* Slightly darker pink hover */
+  }
+  
+  .heart {
+    color: #ff4081; /* Heart icon color */
+  }
+  
+  @media (max-width: 768px) {
+    .footer-links,
+    .social-icons {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .footer-links a,
+    .social-icons a {
+      margin: 0 5px;
+    }
+  }
+  

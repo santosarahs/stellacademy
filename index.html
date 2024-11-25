@@ -68,7 +68,7 @@
                 <div class="row">
                     <div id="introduction" class="col-lg-6 al">
                         <div class="align-items-center">
-                            <h1>Welcome to StellAcademy</h1>
+                            <h1>Learn from Stella.</h1>
                             <p>Your hub for leisure and outdoor learning development for toddlers.</p>
                         </div>
                     </div>
@@ -109,7 +109,7 @@
                     <!-- Category Card 1 -->
                      <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="card shadow-sm">
-                            <img src="images/skills/motorSkills.jpg" class="card-img-top" alt="Motor Skills">
+                            <img src="images/skills/motor.jpg" class="card-img-top" alt="Motor Skills">
                             <div class="card-body">
                                 <h5 class="card-title">Motor Skills</h5>
                                 <p class="card-text">Explore activities like walking, running, climbing, and more.</p>
@@ -125,7 +125,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Cognitive Development</h5>
                                 <p class="card-text">Engage with activities like nature exploration and sorting games.</p>
-                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#motorSkillsModal">View Skills</button>
+                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#cognitiveModal">View Skills</button>
                             </div>
                         </div>
                     </div>
@@ -133,11 +133,11 @@
                     <!-- Category Card 3 -->
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="card shadow-sm">
-                            <img src="images/skills/creativePlay.jpg" class="card-img-top" alt="Motor Skills">
+                            <img src="images/skills/creative.jpg" class="card-img-top" alt="Creative Play">
                             <div class="card-body">
                                 <h5 class="card-title">Creative Play</h5>
                                 <p class="card-text">Foster imagination with water play, mud painting, and building.</p>
-                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#motorSkillsModal">View Skills</button>
+                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#creativePlayModal">View Skills</button>
                             </div>
                         </div>
                     </div>
@@ -145,46 +145,373 @@
                     <!-- Category Card 4 -->
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="card shadow-sm">
-                            <img src="images/skills/socialSkills.jpg" class="card-img-top" alt="Motor Skills">
+                            <img src="images/skills/social.jpg" class="card-img-top" alt="Social Skills">
                             <div class="card-body">
-                                <h5 class="card-title">Motor Skills</h5>
+                                <h5 class="card-title">Social Skills</h5>
                                 <p class="card-text">Explore activities like walking, running, climbing, and more.</p>
-                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#motorSkillsModal">View Skills</button>
+                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#socialSkillsModal">View Skills</button>
                             </div>
                         </div>
                     </div>
 
                 </div>
 
+                <div id="categories" class="row g-4 mt-4">
 
-                <div id="resources" class="row g-3">
+                    <!-- Category Card 5 -->
+                     <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card shadow-sm">
+                            <img src="images/skills/sensory.jpg" class="card-img-top" alt="Sensory Development">
+                            <div class="card-body">
+                                <h5 class="card-title">Sensory Development</h5>
+                                <p class="card-text">Explore textures, sounds, and scents to enhance sensory awareness.</p>
+                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#sensoryDevelopmentModal">View Skills</button>
+                            </div>
+                        </div>
+                     </div>
 
+                    <!-- Category Card 6 -->
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card shadow-sm">
+                            <img src="images/skills/emotional.jpg" class="card-img-top" alt="Emotional Development">
+                            <div class="card-body">
+                                <h5 class="card-title">Emotional Development</h5>
+                                <p class="card-text">Build mindfulness through gardening and quiet observation.</p>
+                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#emotionalDevelopmentModal">View Skills</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category Card 7 -->
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card shadow-sm">
+                            <img src="images/skills/independence.jpg" class="card-img-top" alt="Independence Skills">
+                            <div class="card-body">
+                                <h5 class="card-title">Independence Skills</h5>
+                                <p class="card-text">Encourage self-reliance through packing, dressing, and tidying up.</p>
+                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#independenceSkillsModal">View Skills</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category Card 8 -->
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card shadow-sm">
+                            <img src="images/skills/educational.jpg" class="card-img-top" alt="Educational Activities">
+                            <div class="card-body">
+                                <h5 class="card-title">Educational Activities</h5>
+                                <p class="card-text">Learn colors, shapes, and numbers in fun and interactive ways.</p>
+                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#educationalActivitiesModal">View Skills</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Modals Start -->
+                <!-- Modal for Motor Skills -->
+                <div class="modal fade" id="motorSkillsModal" tabindex="-1" aria-labelledby="motorSkillsModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="motorSkillsModalLabel">Motor Skills</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <ul>
+                            <li>Walking and running on different terrains (Grass, sand, paved areas)</li>
+                            <li>Climbing (Small climbing structures or natural features like rocks or logs)</li>
+                            <li>Throwing and catching (Using lightweight balls or bean bags)</li>
+                            <li>Balancing (Walking on low balance beams or along painted lines)</li>
+                            <li>Scooting or tricycling (Using age-appropriate ride-on toys)</li>
+                            <li>Digging and shoveling (In sandboxes or gardens)</li>
+                        </ul>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Modal for Cognitive Development -->
+                <div class="modal fade" id="cognitiveModal" tabindex="-1" aria-labelledby="cognitiveModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="cognitiveModalLabel">Cognitive Development</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <ul>
+                            <li>Nature exploration (Identifying leaves, flowers, insects, or rocks)</li>
+                            <li>Simple scavenger hunts (Finding items like "a red leaf" or "a small stick")</li>
+                            <li>Sorting and counting outdoor objects (Stones, leaves, or pinecones)</li>
+                            <li>Problem-solving (Building towers or obstacle courses with natural materials)</li>
+                        </ul>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Modal for Creative Play -->
+                <div class="modal fade" id="creativePlayModal" tabindex="-1" aria-labelledby="creativePlayModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="creativePlayModalLabel">Creative Play</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <ul>
+                            <li>Water play (Using buckets, cups, or kiddie pools)</li>
+                            <li>Mud painting (Using mud and sticks to create art)</li>
+                            <li>Building structures (Using sticks, sand, or blocks to create small houses or castles)</li>
+                            <li>Storytelling (Encouraging imaginative role-play outdoors)</li>
+                        </ul>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Modal for Social Skills -->
+                <div class="modal fade" id="socialSkillsModal" tabindex="-1" aria-labelledby="socialSkillsModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="socialSkillsModalLabel">Social Skills</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <ul>
+                            <li>Group games (Playing cooperative games like "Follow the Leader")</li>
+                            <li>Sharing and taking turns (Using swings, slides, or tricycles)</li>
+                            <li>Pretend play (Setting up tea parties or playing "camping" with peers)</li>
+                        </ul>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Modal for Sensory Development -->
+                <div class="modal fade" id="sensoryDevelopmentModal" tabindex="-1" aria-labelledby="sensoryDevelopmentModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="sensoryDevelopmentModalLabel">Sensory Development</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <ul>
+                            <li>Texture exploration (Feeling bark, grass, smooth stones, or water)</li>
+                            <li>Sound identification (Listening to birds, rustling leaves, or wind)</li>
+                            <li>Smelling plants and flowers (Recognizing safe and distinct scents)</li>
+                        </ul>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Modal for Emotional Development -->
+                <div class="modal fade" id="emotionalDevelopmentModal" tabindex="-1" aria-labelledby="emotionalDevelopmentModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="emotionalDevelopmentModalLabel">Emotional Development</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <ul>
+                            <li>Gardening - Planting seeds and caring for plants to foster patience and responsibility.</li>
+                            <li>Mindfulness in nature - Sitting quietly to observe the environment and feel connected.</li>
+                        </ul>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Modal for Independence Skills -->
+                <div class="modal fade" id="independenceSkillsModal" tabindex="-1" aria-labelledby="independenceSkillsModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="independenceSkillsModalLabel">Independence Skills</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <ul>
+                            <li>Packing a small bag - Encouraging toddlers to carry essentials for outdoor play.</li>
+                            <li>Dressing for the outdoors - Learning to put on jackets, hats, or rain boots.</li>
+                            <li>Tidying up - Teaching toddlers to put toys and materials back after playtime.</li>
+                        </ul>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Modal for Educational Activities -->
+                <div class="modal fade" id="educationalActivitiesModal" tabindex="-1" aria-labelledby="educationalActivitiesModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="educationalActivitiesModalLabel">Educational Activities</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <ul>
+                            <li>Color identification - Pointing out colors in nature like leaves, flowers, or stones.</li>
+                            <li>Counting steps or objects - While walking or during play activities.</li>
+                            <li>Shape recognition - Identifying shapes in leaves, rocks, or clouds.</li>
+                        </ul>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Modals End -->
+
+
+
+
+                <div id="resources" class="row g-3 mt-5">
+                <h2 class="text-center mb-4">Sample Resources</h2>
+
+                <div class="row align-items-center mt-4" id="resources">
+                    <!-- First Column: Sample Resources -->
+                    <div class="col-md-6">
+                      <!-- Resource 1: Gardening -->
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="images/skills/gardening-photo.jpg" class="img-fluid rounded-start" alt="Gardening activity">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Gardening</h5>
+                              <p class="card-text">
+                                Introduce your toddler to gardening by helping them plant simple seeds like beans or sunflowers. 
+                                Use child-safe tools, and let them water the plants daily. 
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Resource 2: Balancing on Low Beams -->
+                      <div class="card mb-4">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="images/skills/balancing-photo.jpg" class="img-fluid rounded-start" alt="Balancing on a low beam">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Balancing on Low Beams</h5>
+                              <p class="card-text">
+                                Set up a low balance beam or use painted lines on the ground. Encourage your toddler to walk across 
+                                slowly, holding your hand if needed.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <!-- Second Column: Marketing Section -->
+                    <div class="marketing col-md-6 text-end">
+                      <h2>Discover Joyful Learning</h2>
+                      <p>
+                        At StellAcademy, we believe in nurturing curiosity, creativity, and growth through outdoor adventures. 
+                        From motor skills to mindfulness, every activity is designed to spark joy and foster development in toddlers.
+                      </p>
+                      <a href="#categories" class="btn btn-primary">Explore More Activities</a>
+                    </div>
+                </div>
                 </div>
 
             </section>
             <!-- Categories Section End -->
 
             <!-- About Section Start -->
-             <section id="about" class="container my-5">
-                <div class="row">
-                    <div id="mission" class="col-lg-6">
-                        <h2>Our Mission</h2>
-                        <p>To foster a love for outdoor exploraiton and leisure in toddlers.</p>
-                    </div>
-                    <div id="contact" class="col-lg-6">
-                        <h2>Contact Us</h2>
-                        <p>Email: info@stellacademy.com</p>
-                    </div>
+            <div class="container my-5">
+            <div id="about" class="row mt-5">
+                <!-- Mission Section -->
+                <div id="mission" class="col-md-6 me-auto">
+                  <h2 class="text-center">Our Mission</h2>
+                  <p>
+                    StellAcademy is dedicated to empowering toddlers through the joy of learning and outdoor play. 
+                    Our mission is to create meaningful experiences that enhance physical, cognitive, and social 
+                    development in a safe and nurturing environment.
+                  </p>
+                  <p>
+                    We believe that every child is unique and deserves opportunities to explore, grow, and discover 
+                    the world around them. By combining structured activities with the magic of outdoor exploration, 
+                    we aim to ignite curiosity, creativity, and confidence in every child.
+                  </p>
+                  <p class="text-center">
+                    <em>"Where every step, smile, and discovery becomes a lifelong memory."</em>
+                  </p>
                 </div>
-             </section>
+              
+                <!-- Contact Section -->
+                <div id="contact" class="col-md-6 ms-auto text-end">
+                  <h2 class="text-center">Get in Touch</h2>
+                  <p>
+                    We'd love to hear from you! Whether you have questions, feedback, or ideas for new activities, 
+                    feel free to reach out. Here's how you can contact us:
+                  </p>
+                  <ul>
+                    <li><strong>Email:</strong> <a href="mailto:support@stellacademy.com">support@stellacademy.com</a></li>
+                    <li><strong>Phone:</strong> +1 (800) 123-4567</li>
+                    <li><strong>Address:</strong> StellAcademy HQ, 123 Learning Lane, Kiddie City, CA</li>
+                  </ul>
+                  <p>
+                    Follow us on social media to stay updated with our latest activities and tips:
+                  </p>
+                  <a href="#contact-form" class="btn btn-primary mt-3">Contact Us Now</a>
+                </div>
+              </div>
+            </div>
+              
             <!-- About Section End -->
 
             <!-- Footer Start -->
-             <footer class="footer">
-                <div class="container">
-                    <p>&copy; 2024 Stella's World. Made with <span class="heart">♥</span> by Momma.</p>
+            <footer class="footer py-4">
+                <div class="container text-center">
+                  <img src="images/logo.png" alt="StellAcademy Logo" class="footer-logo mb-3">
+                  <p class="footer-slogan">"Where Learning Meets Adventure"</p>
+                  <div class="footer-links mb-3">
+                    <a href="#categories">Categories</a> | 
+                    <a href="#resources">Resources</a> | 
+                    <a href="#about">About Us</a>
+                  </div>
+                  <div class="social-icons mb-3">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Pinterest</a>
+                  </div>
+                  <p>&copy; 2024 Stella's World. Made with <span class="heart">♥</span> by Momma.</p>
                 </div>
-             </footer>
+              </footer>              
             <!-- Footer End -->
 
 
@@ -192,5 +519,8 @@
         <!-- Main Content Start -->
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
     </body>
 </html>

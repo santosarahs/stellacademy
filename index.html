@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>StellAcademy</title>
+        
+        <link rel="stylesheet" href="styles.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Tenor+Sans&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <!-- NavBar Section Start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home">StellAcademy</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="fasle" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto ms-5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                                Categories
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+                                <li><a class="dropdown-item" href="#categories-section">Motor Skills</a></li>
+                                <li><a class="dropdown-item" href="#categories-section">Cognitive Development</a></li>
+                                <li><a class="dropdown-item" href="#categories-section">Creative Play</a></li>
+                                <li><a class="dropdown-item" href="#categories-section">Social Skills</a></li>
+                                <li><a class="dropdown-item" href="#categories-section">Sensory Development</a></li>
+                                <li><a class="dropdown-item" href="#categories-section">Emotional Development</a></li>
+                                <li><a class="dropdown-item" href="#categories-section">Independence Skills</a></li>
+                                <li><a class="dropdown-item" href="#categories-section">Eductional Activities</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resources">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn-pink">Get Started</a>
+                </div>
+            </div>
+        </nav>
+        <!-- NavBar Section End -->
+
+        <!-- Main Content Start -->
+        <main>
+
+            <!-- Home Section Start -->
+            <section id="home" class="container my-5">
+                <div class="row">
+                    <div id="introduction" class="col-lg-6 al">
+                        <div class="align-items-center">
+                            <h1>Welcome to StellAcademy</h1>
+                            <p>Your hub for leisure and outdoor learning development for toddlers.</p>
+                        </div>
+                    </div>
+                    <div id="featured" class="col-lg-6">
+                        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/featured/feature1.jpg" class="d-block w-100" alt="Feature 1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Feature 1</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="images/featured/feature2.jpg" class="d-block w-100" alt="Feature 1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Feature 2</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="images/featured/feature3.jpg" class="d-block w-100" alt="Feature 1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Feature 3</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Home Section End -->
+
+            <!-- Categories Section Start -->
+            <section id="categories-section" class="container my-5">
+                <h2 class="text-center mb-4">Learning Categories</h2>
+                
+                <div id="categories" class="row g-4">
+
+                    <!-- Category Card 1 -->
+                     <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card shadow-sm">
+                            <img src="images/skills/motorSkills.jpg" class="card-img-top" alt="Motor Skills">
+                            <div class="card-body">
+                                <h5 class="card-title">Motor Skills</h5>
+                                <p class="card-text">Explore activities like walking, running, climbing, and more.</p>
+                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#motorSkillsModal">View Skills</button>
+                            </div>
+                        </div>
+                     </div>
+
+                    <!-- Category Card 2 -->
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card shadow-sm">
+                            <img src="images/skills/cognitive.jpg" class="card-img-top" alt="Cognitive Development">
+                            <div class="card-body">
+                                <h5 class="card-title">Cognitive Development</h5>
+                                <p class="card-text">Engage with activities like nature exploration and sorting games.</p>
+                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#motorSkillsModal">View Skills</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category Card 3 -->
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card shadow-sm">
+                            <img src="images/skills/creativePlay.jpg" class="card-img-top" alt="Motor Skills">
+                            <div class="card-body">
+                                <h5 class="card-title">Creative Play</h5>
+                                <p class="card-text">Foster imagination with water play, mud painting, and building.</p>
+                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#motorSkillsModal">View Skills</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category Card 4 -->
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card shadow-sm">
+                            <img src="images/skills/socialSkills.jpg" class="card-img-top" alt="Motor Skills">
+                            <div class="card-body">
+                                <h5 class="card-title">Motor Skills</h5>
+                                <p class="card-text">Explore activities like walking, running, climbing, and more.</p>
+                                <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#motorSkillsModal">View Skills</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div id="resources" class="row g-3">
+
+                </div>
+
+            </section>
+            <!-- Categories Section End -->
+
+            <!-- About Section Start -->
+             <section id="about" class="container my-5">
+                <div class="row">
+                    <div id="mission" class="col-lg-6">
+                        <h2>Our Mission</h2>
+                        <p>To foster a love for outdoor exploraiton and leisure in toddlers.</p>
+                    </div>
+                    <div id="contact" class="col-lg-6">
+                        <h2>Contact Us</h2>
+                        <p>Email: info@stellacademy.com</p>
+                    </div>
+                </div>
+             </section>
+            <!-- About Section End -->
+
+            <!-- Footer Start -->
+             <footer class="footer">
+                <div class="container">
+                    <p>&copy; 2024 Stella's World. Made with <span class="heart">♥</span> by Momma.</p>
+                </div>
+             </footer>
+            <!-- Footer End -->
+
+
+        </main>
+        <!-- Main Content Start -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

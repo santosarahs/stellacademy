@@ -1,0 +1,77 @@
+body {
+    background-color: #ffe4e9;
+    color: #5c1a3a;
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h5 {
+    color: #ff5ca4;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 2.5rem !important;
+    font-weight: bold;
+    color: #ff5ca4 !important;
+}
+
+.navbar .nav-item {
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+.navbar .nav-link {
+    color: #5c1a3a !important;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #ff5ca4 !important;
+}
+
+.navbar .btn {
+    background-color: #ff5ca4;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#home {
+    padding: 50px 0;
+}
+
+#introduction h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#introduction p {
+    font-size: 1.5rem;
+}
+
+#featured .carousel-inner img {
+    border-radius: 10px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
